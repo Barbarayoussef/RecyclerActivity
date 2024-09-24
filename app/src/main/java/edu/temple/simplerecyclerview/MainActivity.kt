@@ -18,5 +18,10 @@ class MainActivity : AppCompatActivity() {
 
 
         //TODO Step 4: Provide a RecyclerView.Adapter
+        val numbers = intArrayOf(10,20,30,40,50)
+        recyclerView.adapter=NumberDisplayAdapter(numbers)
+
+
+
     }
 }
